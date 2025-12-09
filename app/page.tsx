@@ -1,9 +1,19 @@
+import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <span> Hello world  </span>
-      <p>test'sqdqsd</p>
-    </div>
+    <>
+      <header className="shadow-sm bg-white">
+        <Navbar />
+      </header>
+
+      <main className="flex-1 px-6 py-10">
+        <h1>CV </h1>
+      </main>
+
+      <footer className="bg-white border-t py-4 text-center text-gray-600">
+        <span> Footer </span>
+      </footer>
+    </>
   );
 }
