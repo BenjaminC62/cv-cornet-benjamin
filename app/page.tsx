@@ -1,4 +1,4 @@
-import Navbar from "./Navbar/Navbar";
+import Navbar from "./(cv)/Navbar/Navbar";
 
 export default function Home() {
   const margeTailwind = "max-w-5xl w-full mx-auto px-6";

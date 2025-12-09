@@ -6,7 +6,7 @@ const ContactBar: React.FC = () => {
         { icon: "📍", text: "Lens, Arras, Bruay, Béthune", url: null },
         { icon: "📱", text: "07 82 57 88 32", url: null },
         { icon: "✉️", text: "benjamincornet@outlook.fr", url: "mailto:benjamincornet@outlook.fr" },
-        { icon: "🐙", text: "GitHub", url: "https://github.com/benjamincornet" },
+        { icon: "🦑", text: "GitHub", url: "https://github.com/benjamincornet" },
     ];
 
 
