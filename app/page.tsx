@@ -1,4 +1,5 @@
 import Navbar from "./(cv)/Navbar/Navbar";
+import Skills from "./(cv)/Skills/Skills";
 
 export default function Home() {
   const margeTailwind = "max-w-5xl w-full mx-auto px-6";
@@ -13,7 +14,7 @@ export default function Home() {
 
       <main className="flex-1 py-10">
         <div className={margeTailwind}>
-          <h1 className="text-2xl font-bold">CV</h1>
+          <Skills />
         </div>
       </main>
 
