@@ -1,8 +1,7 @@
 export const skills = [
-    { name: "React", level: "Avancé", icon: "⚛️", color: "text-blue-500", colorDot: "bg-blue-500" },
-    { name: "Next.js", level: "Intermédiaire", icon: "▲", color: "text-black", colorDot: "bg-black" },
-    { name: "Tailwind CSS", level: "Avancé", icon: "🎨", color: "text-cyan-500", colorDot: "bg-cyan-500" },
-    { name: "TypeScript", level: "En apprentissage", icon: "📘", color: "text-blue-600", colorDot: "bg-blue-600" },
-    { name: "Git & GitHub", level: "Indispensable", icon: "🐙", color: "text-gray-700", colorDot: "bg-gray-700" },
-    { name: "Figma", level: "Design", icon: "🖌️", color: "text-purple-500", colorDot: "bg-purple-500" },
+    { name: "React",  icon: "⚛️", color: "text-blue-400", colorDot: "bg-blue-400" },
+    { name: "Next.js", icon: "▲", color: "text-white", colorDot: "bg-white" },
+    { name: "Tailwind CSS", icon: "🎨", color: "text-cyan-400", colorDot: "bg-cyan-400" },
+    { name: "TypeScript", icon: "📘", color: "text-blue-500", colorDot: "bg-blue-500" },
+    { name: "Git & GitHub", icon: "🐙", color: "text-orange-400", colorDot: "bg-orange-400" },
 ];
