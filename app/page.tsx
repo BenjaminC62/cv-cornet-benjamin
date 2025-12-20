@@ -3,28 +3,28 @@ import Skills from "./(cv)/Skills/Skills";
 import Experience from "./(cv)/Experiences/Experience";
 
 export default function Home() {
-  const margeTailwind = "max-w-5xl w-full mx-auto px-6";
+  const containerClass = "max-w-4xl w-full mx-auto px-6";
 
   return (
     <>
-      <header className="py-8 bg-slate-950 border-b border-slate-800/50">
-        <div className={margeTailwind}>
+      <header className="py-10 bg-slate-950 border-b border-slate-900">
+        <div className={containerClass}>
           <Navbar />
         </div>
       </header>
 
-      <main className="flex-1 py-10">
-        <div className={margeTailwind}>
+      <main className="flex-1 py-12">
+        <div className={containerClass}>
           <Skills />
-        </div>
-        <div className={margeTailwind}>
           <Experience />
         </div>
       </main>
 
-      <footer className="bg-slate-950 border-t border-slate-800 py-6 text-slate-500 text-sm">
-        <div className={`${margeTailwind} flex justify-center`}>
-          <span>© 2025 Cornet Benjamin - CV Écologique</span>
+      <footer className="py-8 bg-slate-950 border-t border-slate-900 text-center">
+        <div className="max-w-4xl w-full mx-auto px-6 flex flex-col gap-2">
+            <p className="text-slate-500 text-sm font-medium">
+              © 2025 Cornet Benjamin
+            </p>
         </div>
       </footer>
     </>
