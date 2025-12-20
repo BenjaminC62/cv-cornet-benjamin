@@ -21,7 +21,7 @@ export const projectsData: ProjectProps[] = [
         id: 3,
         title: "Avantura",
         status: "2024",
-        description: "Carnet de voyage collaboratif développé en 36h (Hackathon). Gestion des souvenirs et partage d'expériences.",
+        description: "Carnet de voyage collaboratif développé en 36h. Gestion des souvenirs et partage d'expériences.",
         tech: ["Laravel", "MySQL", "Travail d'équipe"],
         url: "https://github.com/BenjaminC62/Avantura"
     }
