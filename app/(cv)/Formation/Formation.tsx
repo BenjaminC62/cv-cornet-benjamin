@@ -2,14 +2,14 @@ import React from 'react';
 import FormationCard from './components/FormationsCard';
 import { formationsData } from './data/formations';
 
-const Formations: React.FC = () => {
+const Formation: React.FC = () => {
   return (
-    <section className="mb-16">
-      <h2 className="text-2xl font-bold text-slate-100 mb-6 border-b border-slate-800 pb-2">
+    <section className="mb-12">
+      <h2 className="text-lg font-bold text-slate-100 mb-4 border-b border-slate-800 pb-1">
         Formation
       </h2>
 
-      <div className="flex flex-col gap-2">
+      <ul className="flex flex-col">
         {formationsData.map((form) => (
             <FormationCard 
                 key={form.id}
@@ -20,9 +20,9 @@ const Formations: React.FC = () => {
                 description={form.description}
             />
         ))}
-      </div>
+      </ul>
     </section>
   )
 }
 
-export default Formations;
+export default Formation;
