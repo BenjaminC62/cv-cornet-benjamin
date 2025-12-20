@@ -5,25 +5,24 @@ const FormationCard: React.FC<FormationProps> = ({
     date, school, diploma, description 
 }) => {
   return (
-    <div className="flex flex-col p-5 rounded-lg border border-transparent hover:bg-slate-900/30 transition-colors">
-        <div className="flex flex-col sm:flex-row sm:justify-between sm:items-baseline mb-2">
-            <h3 className="text-lg font-bold text-slate-100">
+    <article className="p-4 rounded border border-slate-800/50 bg-slate-900/20 mb-4">
+        <div className="flex justify-between items-baseline mb-1">
+            <h3 className="text-base font-bold text-slate-100">
                 {diploma}
             </h3>
-            <span className="text-sm font-mono text-slate-500 bg-slate-950 px-2 py-1 rounded border border-slate-800">
+            <span className="text-xs font-mono text-slate-500">
                 {date}
             </span>
         </div>
         
-        <div className="text-blue-400 font-medium text-sm mb-3">
+        <div className="text-blue-400 text-sm mb-2 font-medium">
             {school}
         </div>
         
         <p className="text-slate-400 text-sm leading-relaxed">
             {description}
         </p>
-    </div>
+    </article>
   );
 };
-
 export default FormationCard;
