@@ -1,11 +1,17 @@
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
 
 const Avatar: React.FC = () => {
   return (
-    <div className="">
-      <div className='bg-white rounded-full w-24 h-24 shadow-md shadow-white-500/50'></div>
-    </div>
-  )
-}
+      <Image 
+        src="/avatar.webp"
+        alt="Benjamin Cornet"
+        width={80}
+        height={80}
+        className="rounded-full w-32 h-32 object-cover border-2 border-slate-800 shadow-sm"
+        priority 
+      />
+  );
+};
 
 export default Avatar;
