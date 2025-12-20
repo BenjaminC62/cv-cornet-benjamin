@@ -16,13 +16,5 @@ export const projectsData: ProjectProps[] = [
         description: "Application full-stack de location de voitures. API complète (auth, PDF, mails) et interface client (recherches, filtres).",
         tech: ["Laravel", "AngularJS", "API REST", "MySQL"],
         url: "https://github.com/BenjaminC62/MaskCar"
-    },
-    {
-        id: 3,
-        title: "Avantura",
-        status: "2024",
-        description: "Carnet de voyage collaboratif développé en 36h. Gestion des souvenirs et partage d'expériences.",
-        tech: ["Laravel", "MySQL", "Travail d'équipe"],
-        url: "https://github.com/BenjaminC62/Avantura"
     }
 ];

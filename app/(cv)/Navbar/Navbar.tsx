@@ -9,7 +9,7 @@ const Navbar: React.FC = () => {
                 <Avatar />
                 
                 <div className='text-center sm:text-left space-y-1'>
-                    <h1 className="text-4xl sm:text-6xl font-bold tracking-tight uppercase from-blue-400 to-white bg-clip-text text-transparent bg-linear-to-r">
+                    <h1 className="text-4xl sm:text-6xl font-bold tracking-tight uppercase text-slate-100">
                         Cornet Benjamin
                     </h1>
                     <h2 className="text-blue-400 text-3xl font-medium">
