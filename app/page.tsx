@@ -2,6 +2,8 @@ import Navbar from "./(cv)/Navbar/Navbar";
 import Skills from "./(cv)/Skills/Skills";
 import Experience from "./(cv)/Experiences/Experience";
 import Projects from "./(cv)/Projects/Projects";
+import Formation from "./(cv)/Formation/Formation";
+import About from "./(cv)/About/About";
 
 export default function Home() {
   const containerClass = "max-w-4xl w-full mx-auto px-6";
@@ -19,6 +21,8 @@ export default function Home() {
           <Skills />
           <Projects />
           <Experience />
+          <Formation />
+          <About />
         </div>
       </main>
 
