@@ -10,7 +10,7 @@ export default function Home() {
 
   return (
     <>
-      <header className="py-10 bg-slate-950 border-b border-slate-900">
+      <header className="pt-10 bg-slate-950 border-b border-slate-900">
         <div className={containerClass}>
           <Navbar />
         </div>

@@ -4,28 +4,29 @@ import ContactBar from './components/ContactBar';
 
 const Navbar: React.FC = () => {
     return (
-        <nav className='flex flex-col'>
-            <div className='flex items-center gap-6'>
+        <div className='flex flex-col gap-8 mb-8'>
+            <div className='flex flex-col sm:flex-row items-center sm:items-start gap-6'>
                 <Avatar />
-                <div className='flex flex-col'>
-                    <span className="text-slate-100 text-[42px] sm:text-[52px] uppercase font-bold leading-none tracking-tight">
+                
+                <div className='flex flex-col items-center sm:items-start text-center sm:text-left space-y-2'>
+                    <h1 className="text-slate-50 text-4xl sm:text-5xl font-bold tracking-tight uppercase">
                         Cornet Benjamin
-                    </span>
-                    <span className="text-blue-400 text-[16px] mt-1 font-medium tracking-wide">
-                        Étudiant à l'IUT de Lens
-                    </span>
+                    </h1>
+                    <h2 className="text-blue-400 text-lg font-medium tracking-wide">
+                        Étudiant en Informatique - IUT de Lens
+                    </h2>
                 </div>
             </div>
 
-            <div className="mt-8 bg-slate-900/50 p-4 rounded-xl border border-slate-800 flex items-center gap-4 shadow-sm">
-                <span className="text-2xl">🎯</span>
-                <span className="text-slate-200 font-medium text-lg">
-                    Recherche stage développement web à partir du 16 mars
-                </span>
+            <div className="w-full py-3 px-4 bg-slate-900/80 border-y border-slate-800 text-center">
+                <p className="text-blue-200 text-sm sm:text-base font-medium flex items-center justify-center gap-2">
+                    <span className="animate-pulse">🎯</span> 
+                    Recherche stage développement web (dès le 16 mars)
+                </p>
             </div>
             
             <ContactBar />
-        </nav>
+        </div>
     )
 }
 

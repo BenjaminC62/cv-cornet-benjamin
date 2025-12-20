@@ -5,7 +5,6 @@ export interface ExperienceProps {
     date: string;
     description: string;
     skills: string[];
-    isCurrent?: boolean;
 }
 
 export interface ProjectProps {
@@ -23,4 +22,9 @@ export interface FormationProps {
     school: string;
     diploma: string;
     description: string;
+}
+
+export interface SkillGroupProps {
+    category: string;
+    items: string[];
 }

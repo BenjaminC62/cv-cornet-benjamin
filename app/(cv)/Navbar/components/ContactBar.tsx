@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactBar: React.FC = () => {
     return (
-        <address className='flex flex-wrap items-center justify-center gap-x-6 gap-y-2 mt-6 not-italic'>
+        <div className='flex flex-wrap items-center justify-center gap-x-6 gap-y-2 not-italic'>
             <span className="text-slate-400 text-base">
                 📍 Lens, Arras, Béthune
             </span>
@@ -18,7 +18,7 @@ const ContactBar: React.FC = () => {
             <a href="https://github.com/BenjaminC62" target="_blank" className="text-slate-400 hover:text-blue-400 text-base transition-colors border-b border-transparent hover:border-blue-400">
                 🐙 GitHub
             </a>
-        </address>
+        </div>
     )
 }
 

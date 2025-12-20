@@ -4,19 +4,20 @@ import { experiencesData } from './data/experiences';
 
 const Experience: React.FC = () => {
   return (
-    <section className="mb-12">
-      <h2 className="text-lg font-bold text-slate-100 mb-6 border-b border-slate-800 pb-1">
+    <section className="mb-16">
+      <h2 className="text-xl font-bold text-slate-100 mb-8 flex items-center gap-3">
         Expériences
+        <span className="h-px bg-slate-800 flex-1 rounded-full"></span>
       </h2>
       
-      <ul className="flex flex-col">
+      <div className="flex flex-col">
         {experiencesData.map((exp) => (
           <ExperienceCard 
             key={exp.id}
             {...exp}
           />
         ))}
-      </ul>
+      </div>
     </section>
   )
 }
