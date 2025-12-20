@@ -3,10 +3,8 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'CV - Benjamin Cornet',
-  description: 'CV Éco-conçu de Benjamin Cornet, développeur web.',
-  icons: {
-    icon: 'data:,',
-  },
+  description: 'CV Éco-conçu de Benjamin Cornet.',
+  icons: { icon: 'data:,' }, // Toujours garder ça pour les requêtes !
 };
 
 export default function RootLayout({
@@ -16,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body className="bg-slate-950 text-slate-50 antialiased font-sans max-w-4xl mx-auto px-4 sm:px-6 md:px-8 border-x border-slate-900 min-h-screen flex flex-col">
+      <body className="antialiased font-sans max-w-4xl mx-auto px-6  min-h-screen flex flex-col selection:bg-indigo-500/30 selection:text-indigo-200">
         {children}
       </body>
     </html>

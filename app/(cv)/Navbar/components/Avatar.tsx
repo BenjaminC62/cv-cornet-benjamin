@@ -9,7 +9,7 @@ const Avatar: React.FC = () => {
         width={80}
         height={80}
         sizes="80px"
-        className="rounded-full w-32 h-32 object-cover border-2 border-slate-800 shadow-sm"
+        className="rounded-full w-[158px] h-[158px] object-cover border-2 border-slate-800 shadow-sm"
         priority 
       />
   );
