@@ -21,7 +21,6 @@ export interface ProjectProps {
     description: string;
     tech: string[];
     status: string;
-    icon: string;
     url?: string;
 }
 
