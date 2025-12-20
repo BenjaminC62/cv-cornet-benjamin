@@ -9,13 +9,13 @@ const Navbar: React.FC = () => {
                 <Avatar />
                 
                 <div className='text-center sm:text-left space-y-1'>
-                    <h1 className="text-slate-50 text-3xl sm:text-4xl font-bold tracking-tight uppercase">
+                    <h1 className="text-4xl sm:text-6xl font-bold tracking-tight uppercase from-blue-400 to-white bg-clip-text text-transparent bg-linear-to-r">
                         Cornet Benjamin
                     </h1>
-                    <h2 className="text-blue-400 text-lg font-medium">
+                    <h2 className="text-blue-400 text-3xl font-medium">
                         Étudiant en Informatique - IUT de Lens
                     </h2>
-                    <p className="text-slate-400 text-sm pt-2 max-w-md">
+                    <p className="text-slate-400 text-lg pt-2 max-w-md">
                         Recherche stage développement web (dès le 16 mars)
                     </p>
                 </div>

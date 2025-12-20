@@ -5,7 +5,7 @@ const ProjectCard: React.FC<ProjectProps> = ({
     title, description, tech, status, url 
 }) => {
   return (
-    <article className="flex flex-col bg-slate-900 border border-slate-800 p-5 rounded-lg h-full">
+    <article className="flex flex-col bg-slate-900/20 border border-slate-800/50  p-5 rounded-lg h-full">
         <div className="flex justify-between items-baseline mb-3">
             <h3 className="font-bold text-slate-100 text-lg">
                 {title}

@@ -23,7 +23,7 @@ const ExperienceCard: React.FC<ExperienceProps> = ({
             <div className="flex flex-wrap gap-2">
                 {skills.map((skill) => (
                     <span key={skill} className="text-[10px] text-blue-400 bg-blue-950/30 px-1.5 py-0.5 rounded">
-                        #{skill}
+                        {skill}
                     </span>
                 ))}
             </div>
