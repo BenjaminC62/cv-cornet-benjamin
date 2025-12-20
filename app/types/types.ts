@@ -14,3 +14,13 @@ export interface ExperienceProps {
     skills: string[];
     isCurrent?: boolean;
 }
+
+export interface ProjectProps {
+    id: number;
+    title: string;
+    description: string;
+    tech: string[];
+    status: string;
+    icon: string;
+    url?: string;
+}
