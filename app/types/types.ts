@@ -24,3 +24,11 @@ export interface ProjectProps {
     icon: string;
     url?: string;
 }
+
+export interface FormationProps {
+    id: number;
+    date: string;
+    school: string;
+    diploma: string;
+    description: string;
+}
