@@ -1,5 +1,14 @@
-export const skillsData = {
-  "Frontend": ["React", "Next.js", "Vue.js", "Nuxt.js", "Angular", "TypeScript", "Tailwind CSS"],
-  "Backend": ["Node.js", "Express", "PHP", "Symfony", "Laravel", "Java (Spring)"],
-  "Data & Tools": ["PostgreSQL", "MongoDB", "Docker", "Git / GitHub", "Linux"]
-};
+export const skillsData = [
+  {
+    category: "Frontend",
+    items: ["Next.js", "Nuxt.js", "TypeScript", "Tailwind CSS"]
+  },
+  {
+    category: "Backend",
+    items: ["Express", "Laravel", "Java (Spring)"]
+  },
+  {
+    category: "Data & Tools",
+    items: ["PostgreSQL", "Docker", "Git / GitHub"]
+  }
+];

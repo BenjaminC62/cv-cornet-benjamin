@@ -10,7 +10,7 @@ const Projects = () => {
       <ul className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {projectsData.map((project) => (
           <li key={project.id} className="flex flex-col">
-            <div className="flex justify-between items-baseline mb-2">
+            <div className="flex justify-between mb-2">
               <h3 className="font-bold text-slate-100">
                 {project.title} <span className="text-xs font-normal text-slate-500 border border-slate-800 px-1 rounded ml-2">{project.status}</span>
               </h3>
@@ -25,8 +25,10 @@ const Projects = () => {
               {project.description}
             </p>
 
-            <div className="text-xs text-slate-600 font-mono">
-               {project.tech.join(' / ')}
+            <div className="flex flex-wrap gap-2 text-xs text-slate-600 font-mono">
+               {project.tech.map((t) => (
+                 <span key={t}>{t}</span>
+               ))}
             </div>
           </li>
         ))}

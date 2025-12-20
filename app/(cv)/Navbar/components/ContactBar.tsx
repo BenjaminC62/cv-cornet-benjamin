@@ -15,7 +15,7 @@ const ContactBar: React.FC = () => {
                 ✉️ benjamincornet62130@outlook.fr
             </a>
 
-            <a href="https://github.com/BenjaminC62" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-blue-400 text-base transition-colors border-b border-transparent hover:border-blue-400">
+            <a href="https://github.com/BenjaminC62" target="_blank" className="text-slate-400 hover:text-blue-400 text-base transition-colors border-b border-transparent hover:border-blue-400">
                 🐙 GitHub
             </a>
         </address>

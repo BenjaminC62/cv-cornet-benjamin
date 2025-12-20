@@ -9,13 +9,13 @@ const Skills = () => {
       </h2>
       
       <div className="flex flex-col gap-6">
-        {Object.entries(skillsData).map(([category, items]) => (
-          <div key={category}>
+        {skillsData.map((group) => (
+          <div key={group.category}>
             <h3 className="text-sm font-bold text-blue-400 uppercase tracking-wider mb-3">
-              {category}
+              {group.category}
             </h3>
             <div className="flex flex-wrap gap-2">
-              {items.map((skill) => (
+              {group.items.map((skill) => (
                 <span 
                   key={skill} 
                   className="px-3 py-1 bg-slate-900 text-slate-300 text-sm rounded border border-slate-800 hover:border-slate-600 transition-colors"
