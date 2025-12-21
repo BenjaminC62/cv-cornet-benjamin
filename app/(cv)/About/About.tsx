@@ -13,7 +13,7 @@ const About = () => {
            </li>
            <li className="flex justify-between">
               <span>Anglais</span>
-              <span className="text-slate-500">Niveau B1</span>
+              <span className="text-slate-500">Niveau B2</span>
            </li>
         </ul>
       </div>

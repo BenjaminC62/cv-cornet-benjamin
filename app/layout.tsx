@@ -4,7 +4,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'CV - Benjamin Cornet',
   description: 'CV Éco-conçu de Benjamin Cornet.',
-  icons: { icon: 'data:,' }, // Toujours garder ça pour les requêtes !
+  icons: { icon: 'data:,' },
 };
 
 export default function RootLayout({
